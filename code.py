@@ -21,7 +21,7 @@ async def on_message(message):
     if reconstructedmessage != cleanmessage:
       await message.channel.send(f"{message.author.mention} Avery you fucked up. You should've said something like: \n\n" + cleanmessage)
   #This is the amend ffunction, it doesn't work rn
-  if message.content.startswith("$amend"):
+  #if message.content.startswith("$amend"):
 
 print("Booted up")
 
